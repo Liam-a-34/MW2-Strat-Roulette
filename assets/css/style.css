@@ -1,0 +1,213 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+header{
+    position: fixed;
+    top: 0;
+    width: 100%;
+    height: 110px;
+    background-color: rgb(32, 32, 32);
+    text-align: center;
+    font-size: 80px;
+    font-weight: bold;
+    padding-top: 30px;
+    color: rgb(182, 179, 179);
+    border-bottom: 5px solid rgb(52, 52, 52);
+    font-family: sans-serif;
+} 
+
+body{
+    background-color: rgb(22, 22, 22);
+}
+
+section{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: 200px;
+}
+
+a{
+    text-decoration: none;
+}
+
+.strats{
+    width: 700px;
+    height: 575px;
+    text-align: center;
+}
+
+.strats:hover{
+    transition: 1s;
+    scale: 1.05;
+}
+
+.strats img{
+    width: 100%;
+    border-radius: 20px;
+    box-shadow: 5px 5px 5px rgb(34, 34, 34)
+}
+
+.strats h2{
+    font-size: 40px;
+    color: rgb(182, 179, 179);
+    font-family: sans-serif;
+    margin-top: 20px
+}
+
+#wz-main{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.strat-card{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0;
+    margin-top: 100px;
+    text-align: center;
+    width: 60%;
+    display: inline-block;
+    padding: 50px;
+    border-radius: 24px;
+    background-color: rgb(172, 172, 172);
+}
+
+.strat-card h1{
+    font-size: 80px;
+    color: rgb(28, 28, 28);
+    font-family: sans-serif;
+    margin-bottom: 40px;
+}
+
+.back-button{
+    position: absolute;
+    top: 30px;
+    left: 30px;
+    width: 200px;
+    height: 50px;
+    border-radius: 360px;
+    background-color: rgb(79, 77, 77);
+    border: none;
+    font-size: 30px;
+    font-weight: bold;
+    color: rgb(182, 179, 179);
+}
+
+.back-button:hover{
+    cursor: pointer
+}
+
+
+.strat-button{
+    width: 400px;
+    height: 75px;
+    border-radius: 360px;
+    background-color: rgb(28, 28, 28);
+    border: none;
+    font-size: 30px;
+    font-weight: bold;
+    color: rgb(182, 179, 179);
+}
+
+.strat-button:hover{
+    cursor: pointer;
+}
+
+.strat-area{
+    width: 80%;
+    height: 300px;
+    margin: 5% 5%;
+    padding: 5%;
+    border-radius: 24px;
+    background-color: rgb(28, 28, 28);
+}
+
+.strat-area h2{
+    font-size: 40px;
+    font-family: sans-serif;
+    color: rgb(182, 179, 179);
+}
+
+.strat-area p{
+    color: rgb(182, 179, 179);
+    font-size: 20px;
+    margin: 5%;
+    font-family: sans-serif
+    
+}
+
+@media screen and (max-width: 1200px){
+    .strat-area{
+        width: 60%;
+        margin: 5% 15%;
+    }
+
+    .strat-button{
+        width: 250px;
+        height: 75px;
+    }
+
+    .strat-card h1{
+        font-size: 50px;
+    }
+
+    .strat-area h2{
+        font-size: 30px;
+    }
+
+    .strat-area p{
+        font-size: 15px;
+    }
+}
+
+@media screen and (max-width: 850px){
+    header{
+        height: 80px;
+        font-size: 30px;
+    }
+
+    .strats{
+        width: 50%;
+        height: 50%;
+        margin-bottom: 30px;
+    }
+
+    .strats h2{
+        font-size: 30px
+    }
+}
+
+@media screen and (max-width: 700px){
+
+    .strat-area{
+        width: 98%;
+        margin: 5% 0;
+        padding: 5% 1%;
+    }
+}
+
+@media screen and (max-width: 450px){
+
+    .strat-card{
+        padding: 10px;
+        width: 90%;
+        height: 80vh;
+    }
+
+    .strat-area{
+        display: inline-block;
+        height: 50%;
+    }
+
+    .strat-button{
+        width: 150px;
+        height: 50px;
+        font-size: 20px;
+    }
+}
