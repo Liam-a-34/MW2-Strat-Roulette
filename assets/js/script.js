@@ -75,7 +75,7 @@ const bingoText = ["Get 5 Kills", "Get 10 Squad Kills", "Open A Loadout Drop", "
     "Find an Armored Vehicle", "Use a Rappel", "Find a Three Plate Vest", "Get an Execution", "Die With Over 5K", "Kill Both Enemies in Gulag", "Sink a Vehicle", "Die to a Meta Gun", "Complete an Intel Cotract",
     "Survive a Most Wanted Contract", "Get a Vehicle on Top of a Roof", "Crawl for 100 Meters", "Clear out a POI", "Use a UAV", "Counter an Enemy's UAV", "Find a Gas Mask", "Die to Gas", "Stay in the Air for 2 Minutes",
     "Kill an Enemy That's in a Vehicle", "Find a Gun with 3 Attachments", "Find a Gun with 2 Attachments", "Find a Gun with 1 Attachments", "Find a Gun with 4 Attachments", "Tear Gas an Enemy",
-    "Steal a Teammate's Crate", "Get a Kill With a Supressed Weapon", "Bust Through 10 Different Doors", "Spot an Enemy with a Spotter Scope", "Break All of a Car's Windows", "Drive 1k Meters", "See an Loot a Body",
+    "Steal a Teammate's Crate", "Get a Kill With a Supressed Weapon", "Bust Through 10 Different Doors", "Spot an Enemy with a Spotter Scope", "Break All of a Car's Windows", "Drive 1k Meters", "See an Enemy Loot a Body",
     "Steal an Enemy's Vehicle", "Hold a Funeral for a Killed Enemy", "Destroy an Enemy Helo", "Crash in to an Enemy Vehicle"]
 
 
