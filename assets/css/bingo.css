@@ -21,13 +21,18 @@ body{
 #bingoCard div{
     width: 100%;
     height: 100px;
-    padding-top: 20px;
+    padding-top: 5px;
     background-color: black;
     color: white;
     text-align: center;
     font-size: 40px;
     font-family: sans-serif;
 }
+
+#info{
+    font-size: 20px;
+}
+
 
 #bingoGrid{
     display: flex;
@@ -92,10 +97,14 @@ body{
     }
 
     #bingoCard div{
-        padding-top: 10px;
+        padding-top: 0;
         font-size: 20px;
         height: 50px;
         border: 1px solid black
+    }
+
+    #info{
+        font-size: 10px;
     }
 
     #bingoGrid div{
