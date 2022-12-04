@@ -154,3 +154,4 @@ $(".strat-button").on("click", generateNumb)
 $(".back-button").on("click", function(){
     history.back()
 })
+

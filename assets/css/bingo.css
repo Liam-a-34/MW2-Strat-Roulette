@@ -72,6 +72,23 @@ body{
     font-weight: bold;
 }
 
+.back-button{
+    position: absolute;
+    width: 200px;
+    height: 50px;
+    border-radius: 360px;
+    border: none;
+    background-color: rgb(79, 77, 77);
+    color: white;
+    font-size: 30px;
+    margin-top: 5px;
+    margin-left: 275px;
+}
+
+.back-button:hover{
+    cursor: pointer
+}
+
 @media screen and (max-width: 1000px){
 
     #bingoCard{
@@ -87,6 +104,14 @@ body{
 
     #freeSpace p{
         font-size: 30px
+    }
+
+    .back-button{
+        width: 150px;
+        height: 40px;
+        font-size: 25px;
+        margin-top: 5px;
+        margin-left: 175px;
     }
 }
 
@@ -116,5 +141,13 @@ body{
 
     #freeSpace p{
         font-size: 12px;
+    }
+
+    .back-button{
+        width: 100px;
+        height: 25px;
+        font-size: 15px;
+        margin-left: 75px;
+        margin-top: 2px;
     }
 }
