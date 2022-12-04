@@ -115,6 +115,12 @@ body{
     }
 }
 
+@media screen and (max-width: 750px){
+    #bingoGrid div{
+        font-size: 8px;
+    }
+}
+
 @media screen and (max-width: 550px){
     #bingoCard{
         width: 250px;
@@ -136,7 +142,7 @@ body{
         width: 50px;
         height: 50px;
         padding: 2px;
-        font-size: 3px;
+        font-size: 2px;
         margin: 0;
     }
 
