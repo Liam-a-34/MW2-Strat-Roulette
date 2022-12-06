@@ -72,10 +72,27 @@ body{
     color: white;
     font-size: 30px;
     margin-top: 5px;
-    margin-left: 275px;
+    margin-left: 125px;
 }
 
 .back-button:hover{
+    cursor: pointer
+}
+
+.rerollBtn {
+    position: absolute;
+    width: 200px;
+    height: 50px;
+    border-radius: 360px;
+    border: none;
+    background-color: rgb(79, 77, 77);
+    color: white;
+    font-size: 30px;
+    margin-top: 5px;
+    margin-left: 425px;
+}
+
+.rerollBtn:hover{
     cursor: pointer
 }
 
@@ -101,7 +118,15 @@ body{
         height: 40px;
         font-size: 25px;
         margin-top: 5px;
-        margin-left: 175px;
+        margin-left: 75px;
+    }
+
+    .rerollBtn{
+        width: 150px;
+        height: 40px;
+        font-size: 25px;
+        margin-top: 5px;
+        margin-left: 275px
     }
 }
 
@@ -139,7 +164,15 @@ body{
         width: 100px;
         height: 25px;
         font-size: 15px;
-        margin-left: 75px;
+        margin-left: 25px;
+        margin-top: 2px;
+    }
+
+    .rerollBtn{
+        width: 100px;
+        height: 25px;
+        font-size: 15px;
+        margin-left: 125px;
         margin-top: 2px;
     }
 }

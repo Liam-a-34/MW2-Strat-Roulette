@@ -155,3 +155,5 @@ $(".back-button").on("click", function(){
     history.back()
 })
 
+$(".rerollBtn").on("click", generateBingo)
+
