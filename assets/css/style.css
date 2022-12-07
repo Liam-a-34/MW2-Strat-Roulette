@@ -40,9 +40,8 @@ a{
     text-align: center;
 }
 
-.strats:hover{
-    transition: 1s;
-    scale: 1.05;
+.strats img:hover{
+    box-shadow: 0 0 10px 5px white;
 }
 
 .strats img{

@@ -1,0 +1,218 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-color: rgb(22, 22, 22)
+}
+
+header{
+    position: fixed;
+    top: 0;
+    width: 100%;
+    height: 110px;
+    background-color: rgb(32, 32, 32);
+    text-align: center;
+    font-size: 80px;
+    font-weight: bold;
+    padding-top: 30px;
+    color: rgb(182, 179, 179);
+    border-bottom: 5px solid rgb(52, 52, 52);
+    font-family: sans-serif;
+    z-index: 1;
+} 
+
+#weaponSection p{
+    color: rgb(182, 179, 179);
+    margin-top: 175px;
+    font-size: 30px;
+    text-align: center;
+    text-decoration: underline;
+    font-family: sans-serif;
+}
+
+#weaponChoices{
+    display: flex;
+    flex-wrap: wrap;
+    border-bottom: 2px solid white;
+    width: 95%;
+    justify-content: space-evenly;
+    margin: 0 auto;
+    margin-top: 50px;
+    padding-bottom: 40px;
+}
+
+.weaponSelect{
+    width: 200px;
+    font-size: 20px;
+    color: rgb(182, 179, 179);
+    font-family: sans-serif;
+    line-height: 30px;
+    margin: 0 25px;
+}
+
+.weaponSelect h3{
+    margin: 10px 0;
+    text-decoration: underline;
+}
+
+#loadoutArea{
+    height: 1500px;
+}
+
+#loadoutArea ul{
+    margin: 10px 0;
+}
+
+#loadoutArea li{
+    color: rgb(182, 179, 179);
+    text-align: center;
+    font-family: sans-serif;
+    font-size: 20px;
+    line-height: 30px;
+}
+
+#loadoutBtn{
+    position: absolute;
+    width: 200px;
+    height: 50px;
+    border-radius: 360px;
+    border: none;
+    background-color: rgb(79, 77, 77);
+    color: white;
+    font-size: 30px;
+    margin-top: 35px;
+    left: 50%;
+    -ms-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+}
+
+#loadoutBtn:hover{
+    cursor: pointer;
+}
+
+#generatedLoadout{
+    position: relative;
+    top: 200px
+}
+
+#perks {
+    display: flex;
+    justify-content: space-evenly;
+    position: absolute;
+    bottom: -400px;
+    left: 50%;
+    -ms-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+    height: 250px;
+    width: 400px;
+}
+
+#perksH2{
+    position: absolute;
+    bottom: 0px;
+    left: 50%;
+    -ms-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+    color: rgb(182, 179, 179);
+    font-size: 40px;
+    font-family: sans-serif;
+    text-decoration: underline;
+}
+
+#perks h5{
+    color: rgb(182, 179, 179);
+    font-size: 18px;
+    font-family: sans-serif;
+    text-align: center;
+}
+
+#perks img{
+    width: 150px;
+    height: 150px;
+}
+
+#selectedWeapons{
+    display: flex;
+    justify-content: space-evenly;
+    width: 1000px;
+    position: absolute;
+    bottom: -1400px;
+    left: 50%;
+    -ms-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+}
+
+#selectedWeapons h2{
+    color: rgb(182, 179, 179);
+    font-size: 40px;
+    font-family: sans-serif;
+    text-decoration: underline;
+    position: absolute;
+    top: -50px;
+    left: 50%;
+    -ms-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+}
+
+.weaponSlot h3{
+    color:rgb(182, 179, 179);
+    font-size: 30px;
+    font-family: sans-serif;
+    margin-bottom: 10px;
+    
+}
+
+.weaponImg{
+    width: 350px;
+}
+
+.attachments{
+    margin-top: 25px;
+    margin-left: 25px;
+    color: rgb(182, 179, 179);
+    font-family: sans-serif;
+    font-size: 20px;
+    line-height: 40px;
+
+}
+
+.attachments h4{
+    font-size: 30px;
+    text-decoration: underline;
+    margin-bottom: 10px;
+}
+
+#equipment h2{
+    position: absolute;
+    bottom: 275px;
+    left: 50%;
+    -ms-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+    color: rgb(182, 179, 179);
+    font-size: 40px;
+    font-family: sans-serif;
+    text-decoration: underline;
+}
+
+#equipment {
+    display: flex;
+    justify-content: space-evenly;
+    position: absolute;
+    bottom: -700px;
+    left: 50%;
+    -ms-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+    height: 250px;
+    width: 400px;
+}
+
+#equipment h5{
+    color: rgb(182, 179, 179);
+    font-size: 18px;
+    font-family: sans-serif;
+    text-align: center;
+}
+
+
