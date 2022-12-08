@@ -43,7 +43,6 @@ header{
 }
 
 #loadoutBtn{
-    position: absolute;
     width: 200px;
     height: 50px;
     border-radius: 360px;
@@ -51,10 +50,10 @@ header{
     background-color: rgb(79, 77, 77);
     color: white;
     font-size: 30px;
-    margin-top: 35px;
-    left: 50%;
+    /*margin-top: 35px;
+     left: 50%;
     -ms-transform: translate(-50%, -50%);
-    transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);*/
 }
 
 #loadoutBtn:hover{
@@ -62,7 +61,6 @@ header{
 }
 
 .back-button{
-    position: absolute;
     width: 200px;
     height: 50px;
     border-radius: 360px;
@@ -70,15 +68,23 @@ header{
     background-color: rgb(79, 77, 77);
     color: white;
     font-size: 30px;
-    margin-top: 35px;
-    top: 39%;
+    /* top: 39%;
     left: 50%;
     -ms-transform: translate(-50%, -50%);
-    transform: translate(-50%, -50%);  
+    transform: translate(-50%, -50%);   */
 }
 
 .back-button:hover{
     cursor: pointer
+}
+
+#buttonsDiv {
+    position: absolute;
+    height: 125px;
+    bottom: 42%;
+    left: 50%;
+    -ms-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
 }
 
 #generatedLoadout{
@@ -156,11 +162,11 @@ header{
 
 .weaponImg{
     width: 350px;
+    height: 160px;
 }
 
 .attachments1{
     margin-top: 25px;
-    margin-left: 25px;
     color: rgb(182, 179, 179);
     font-family: sans-serif;
     font-size: 20px;
@@ -176,7 +182,6 @@ header{
 
 .attachments2{
     margin-top: 25px;
-    margin-left: 25px;
     color: rgb(182, 179, 179);
     font-family: sans-serif;
     font-size: 20px;
