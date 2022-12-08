@@ -792,6 +792,8 @@ generateLoadout()
 
 function generateSecondary(){
 
+    $(`.attachments2`).children("p").html("")
+
     attachmentTypeArray = []
     
     let randomSecondary = Math.floor(Math.random() * 10)
