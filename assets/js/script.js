@@ -610,7 +610,7 @@ const SIGNAL50 = [
     //["Underbarrel"],
     //["Muzzle"],
     ["SIGNAL 50"],
-    ["./assets/images/Screenshot_150"],
+    ["./assets/images/Screenshot_150.png"],
 ]
 //const LAB330 = []
 
@@ -670,7 +670,7 @@ const SIGNAL50 = [
 
         $(`.attachments${count}`).children("p").html("")
 
-    let randomPrimary = Math.floor(Math.random() * 21)
+    let randomPrimary = Math.floor(Math.random() * 35)
     let selectedGun;
 
     if(randomPrimary == 0){
