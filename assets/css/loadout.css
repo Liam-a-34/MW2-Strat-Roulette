@@ -81,7 +81,7 @@ header{
 #buttonsDiv {
     position: absolute;
     height: 125px;
-    bottom: 42%;
+    top: 47%;
     left: 50%;
     -ms-transform: translate(-50%, -50%);
     transform: translate(-50%, -50%);
