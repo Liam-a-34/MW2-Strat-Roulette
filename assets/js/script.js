@@ -85,8 +85,8 @@ const P890 = [
     ["Rear Grip", "Bruen Anchor Grip", "Bruen RSH-80 Grip", "FJX DVF60 Grip", "BP-Grain Grip", "Akimbo P890"],
     ["Magazine", "10 Round Mag", "12 Round Mag"],
     ["Ammunition", ".45 Auto Frangible", ".45 Auto Hollow Point", ".45 Auto Armor Piercing", ".45 Auto Overpressured +P"],
-    //["Trigger Action"],
-    //["Muzzle"]
+    ["Trigger Action", "Bruen MG80 Trigger", "XRK Heavy V3", "Bruen Express", "P890 Double Action"],
+    ["Muzzle", "Forge DX90-F Long", "FT Steel Fire", "Slab-10 Comp", "XRK Ventor-900", "Comp 905F Pistol", "Forge DX90-F Short", "Bruen Tri-Port", "XRK QZ-105", " SA GF90 Flash Hider", "Hole Bunch Breacher", "CN30 Supressor", "DZS Open Comp", "Corvus Series-D"],
     ["./assets/images/Screenshot_181.png"],
 ]
 
