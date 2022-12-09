@@ -91,7 +91,7 @@ const P890 = [
 ]
 
 const DEAGLE = [
-    //["Barrel"],
+    ["Barrel", "SA Longshot-50", "SA BRake Barrel", "SA Comp Barrel", "SA Tyrant Fifty"],
     ["Laser", "Series 710 Pistol Laser", "FJX Diod-70", "XTEN Sidearm-L400", "1MW Pistol Laser", "DZM-1000 L", "FTAC Vortex 200"],
     //["Optic"],
     ["Rear Grip", "EXF Shoreline Grip", "EXF Resistance Grip", "GS .50 Wood Grain", "Akimbo .50 GS"],
@@ -118,9 +118,9 @@ const X12 = [
 const BASILISK = [
     ["Barrel", "Bryson Snubby", "FTAC Fang Ported", "6.75inch Cougar 500", "10.5inch FTAC Arrow", "FTAC Carnivora 7inch"],
     ["Laser", "Basilisk Grip Laser", "Revo-LSD 7MW", "Corvus LZR-790"],
-    //["Optic"]
-    //["Rear Grip"]
-    //["Loader"]
+    //["Optic" ],
+    ["Rear Grip", "Bryson Duel Grip", "Bryson WD-54 Grip", "SO RO-99 Grip", "Akimbo Basilisk"],
+    //["Loader"],
     ["Ammunition", ".500 Hollow Point", ".500 Armor Piercing", ".500 Frangible", ".500 OverPressured +P", ".500 Snakeshot"],
     ["Trigger Action", "Bryson HTA", "Basilisk HT-7", "Bryson Match Grade"],
     ["Muzzle", "FSS VMW Flash Hider", "RVS607 Compensator", "FSS KL30", "FTAC H50 Ported"],
@@ -528,7 +528,7 @@ const RAPPH = [
 //-------------------------------------------------------------------------------------------------------------------------------
 const EBR14 = [
     ["Barrel", "18inch T300 Barrel", "16inch Chrome-Lined RFX40 Barrel", "22inch Boremaster Barrel", "18inch Lonestar Barrel"],
-    //["Laser"],
+    ["Laser", "SZ 1MW PEQ", "Schlager PEQ Box IV", "Corio LAZ-44 V3", "Canted Vibro-Dot 7", "1MW Laser Box", "Stovl DR Laser Box", "Corvus PEQ Beam-5", "FTAC Grimline Laser", "Luminate-44", "DXS Flash 90", "FSS Ole-V Laser"],
     ["Optic", "Slimline Pro", "SZ Mini", "Cronen Mini Red Dot", "Cronen Mini Pro", "SZ Sigma-IV Optic", "XRK On-Point Optic", "DF105 Reflex Sight", "Corvus SOL-76", "SZ Recharge-DX", "SZ SRO-7", "CORIO Enforcer Optic", "SZ Lonewolf Optic", "Kazan-Holo", "SZ Holotherm", "VLK 4.0 Optic", "Schlager 3.4X", "Forge Tac Delta 4", "Cronen Zero-P Optic", "Schlager Night View", "VX350 Thermal Optic", "DR582 Hybrid Sight", "SZ Vortex-90", "BPZ40 Hybrid", "Angel-40 4.8X", "Thermo-Optic X9", "Teplo Clear Shot", "HMW-20 Optic", "Luca Bandera Scope", "DS Farsight 11", "SZ Minitac-40", "Aim OP-V4", "Monocle CT90", "Corio RE-X Pro", "SZ Battle Optic", "Corvus Downrange-00", "XTEN Angel-40", "SZ Bullseye Optic", "SZ Agressor-IR Optic", "Teplo-OP3 Scope", "Hybrid Firepoint", "SZ Oscar-9", "FTAC Charlie7", "3X RFL-Optic", "Drexsom Prime-90", "Ares Clear Shot", "DXS Coriolis V4", "Lachmann Impact 9", "SZ Heatsource 800"],
     ["Stock", "FTAC Valor Stock", "SO R55 Adaptor", "SO-90 Factory Stock"],
     ["Rear Grip", "Cronen EM55 Grip", "FSS Spider Grip", "FSS Gen. 7 Grip"],
