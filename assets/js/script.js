@@ -282,8 +282,19 @@ const LACHMANN762 = [
                 ["LACHMANN-762"],
                 ["./assets/images/Screenshot_119.png"],            
             ]
-
-//const SO14 = []  
+//New
+const SO14 = [
+    ["Barrel", "22inch Factory Fourteen Barrel", "18inch T300 Barrel", "16inch Chrome-Lined RFX40 Barrel", "22inch Boremaster Barrel"],
+    ["Laser", "SZ 1MW PEQ", "Schlager PEQ Box IV", "Corio LAZ-44 V3", "Canted Vibro-Dot 7", "1MW Laser Box", "Stovl DR Laser Box", "Corvus PEQ Beam-5", "FTAC Grimline Laser", "Luminate-44", "DXS Flash 90", "FSS Ole-V Laser"],
+    ["Optic", "Slimline Pro", "SZ Mini", "Cronen Mini Red Dot", "Cronen Mini Pro", "SZ Sigma-IV Optic", "XRK On-Point Optic", "DF105 Reflex Sight", "Corvus SOL-76", "SZ Recharge-DX", "SZ SRO-7", "CORIO Enforcer Optic", "SZ Lonewolf Optic", "Kazan-Holo", "SZ Holotherm", "VLK 4.0 Optic", "Schlager 3.4X", "Forge Tac Delta 4", "Cronen Zero-P Optic", "Schlager Night View", "VX350 Thermal Optic", "DR582 Hybrid Sight", "SZ Vortex-90", "BPZ40 Hybrid", "Angel-40 4.8X", "Thermo-Optic X9", "Teplo Clear Shot", "HMW-20 Optic", "Luca Bandera Scope", "DS Farsight 11", "SZ Minitac-40", "Aim OP-V4", "Monocle CT90", "Corio RE-X Pro", "SZ Battle Optic", "Corvus Downrange-00", "XTEN Angel-40", "SZ Bullseye Optic", "SZ Agressor-IR Optic", "Teplo-OP3 Scope", "Hybrid Firepoint", "SZ Oscar-9", "FTAC Charlie7", "3X RFL-Optic"],
+    ["Stock", "FTAC RTP-40 Stock", "SO R55 Adaptor", "Model 1957 Stock"],
+    ["Magazine", "50 Round Drum", "25 Round Mag"],
+    ["Ammunition", "7.62 Armor Piercing", "7.62 High Velocity", "7.62 Frangible", "7.62 HollowPoint", "7.62 OverPressured +P", "7.62 Incendiary"],
+    ["Underbarrel", "Edge-47 Grip", "Demo Firm Grip", "FTAC Ripper 56", "Demo Cleanshot 40", "Demo IMP-44 Grip", "FTAC Tiger Grip", "FSS Sharkfin 90", "Agent Grip", "Bruen Sync Shot Grip", "XTEN Drop Grip", "Phase-3 Grip", "Merc Foregrip", "Lockgrip Precision-40", "Schlager Tango", "VX Pineapple", "Operator Foregrip", "TV Wrecker Grip", "Bruen Tilt Grip", "Bruen Warrior Grip", "Commando Foregrip", "XTEN Gravedigger", "XTEN Nexus Grip", "Hex-40 Grip", "OP-X9 Foregrip", "Cronen Grooveshot Grip", "EXF Backdraft Grip", "Bipod V9 Grip", "Level Aim Bipod", "Cornerstone Bipod", "XTEN Stable Shot"],
+    ["Muzzle", "Polarfire-S", "Kastovia DX90", "Lockshot KT85", "Sakin Tread-40", "TA HUL-Breach KL", "Eight-Point Flash Hider", "TZL-90 V3", "Cronen Dark KX30", "Husher-65 Silencer", "ZLR Talon 5", "Echoline GS-X", "Zulu-60", "Tempus GH50", "TY-LR8", "Bore-490", "GL Clear Breach"],
+    ["SO-14"],
+    ["./assets/images/Screenshot_120.png"],
+]  
 
 const TAQV = [
                 ["Barrel", "Lance-50 12inch Barrel", "18inch Precision-6 Barrel"],
@@ -298,8 +309,20 @@ const TAQV = [
                 ["TAQ-V"],
                 ["./assets/images/Screenshot_121.png"],           
             ]
-
-//const FTACRECON = []          
+//New
+const FTACRECON = [
+    ["Barrel", "419MM EXF Barrel", "Tempus Trench Pro", "Bull Rider 16.5inch", "7.5inch Tempus Firebrand"],
+    ["Laser", "SZ 1MW PEQ", "Schlager PEQ Box IV", "Corio LAZ-44 V3", "Canted Vibro-Dot 7", "1MW Laser Box", "Stovl DR Laser Box", "Corvus PEQ Beam-5", "FTAC Grimline Laser", "Luminate-44", "DXS Flash 90", "FSS Ole-V Laser"],
+    ["Optic", "Slimline Pro", "SZ Mini", "Cronen Mini Red Dot", "Cronen Mini Pro", "SZ Sigma-IV Optic", "XRK On-Point Optic", "DF105 Reflex Sight", "Corvus SOL-76", "SZ Recharge-DX", "SZ SRO-7", "CORIO Enforcer Optic", "SZ Lonewolf Optic", "Kazan-Holo", "SZ Holotherm", "VLK 4.0 Optic", "Schlager 3.4X", "Forge Tac Delta 4", "Cronen Zero-P Optic", "Schlager Night View", "VX350 Thermal Optic", "DR582 Hybrid Sight", "SZ Vortex-90", "BPZ40 Hybrid", "Angel-40 4.8X", "Thermo-Optic X9", "Teplo Clear Shot", "HMW-20 Optic", "Luca Bandera Scope", "DS Farsight 11", "SZ Minitac-40", "Aim OP-V4", "Monocle CT90", "Corio RE-X Pro", "SZ Battle Optic", "Corvus Downrange-00", "XTEN Angel-40", "SZ Bullseye Optic", "SZ Agressor-IR Optic", "Teplo-OP3 Scope", "Hybrid Firepoint", "SZ Oscar-9", "FTAC Charlie7", "3X RFL-Optic"],
+    ["Stock", "Assault-60 Stock Factory", "Ravage-8", "Demo Fade Pro Stock", "Demo Precision Elite Factory"],
+    ["Rear Grip", "D15 Grip", "Sakin ZX Grip", "XTEN Grip", "Support CP90 Grip"],
+    ["Magazine", "5 Round Mag", "15 Round Mag"],
+    ["Ammunition", ".458 Frangible", ".458 OverPressured +P", ".458 High Velocity", ".458 Hollow Point", ".458 Armor Piercing"],
+    ["Underbarrel", "Edge-47 Grip", "Demo Firm Grip", "FTAC Ripper 56", "Demo Cleanshot 40", "Demo IMP-44 Grip", "FTAC Tiger Grip", "FSS Sharkfin 90", "Agent Grip", "Bruen Sync Shot Grip", "XTEN Drop Grip", "Phase-3 Grip", "Merc Foregrip", "Lockgrip Precision-40", "Schlager Tango", "VX Pineapple", "Operator Foregrip", "TV Wrecker Grip", "Bruen Tilt Grip", "Bruen Warrior Grip", "SPW 40MM", "Corvus Masterkey", "Commando Foregrip", "XTEN Gravedigger", "XTEN Nexus Grip", "Hex-40 Grip", "OP-X9 Foregrip", "Cronen Grooveshot Grip", "EXF Backdraft Grip", "Bipod V9 Grip", "Level Aim Bipod", "Cornerstone Bipod", "XTEN Stable Shot"],
+    ["Muzzle", "Talon Sixteen", "EXF Relentless-40", "BVM-338", "TA CG76", "Dark KX50 Flash Hider", "Nilsound 90", "FTAC Dreadnought", "FTAC Reaper", "Bruen Agent 90", "Cronen DM338", "Shred CP90", "XRK Kraken", "AP-390 Flash Hider", "Ported DZ38", "Demon Helix T7"],
+    ["FTAC RECON"],
+    ["./assets/images/Screenshot_122.png"],
+]          
 //-------------------------------------------------------------------------------------------------------------------------------
 const VEL46 = [
                 ["Barrel", "Tango 228 Barrel", "Schlager RV-B", "Schlager L203 Barrel", "LACH-DX 203MM", "Lachmann Dart 165MM", "LACH-165 Zulu", "LM Series-7"],
@@ -345,11 +368,11 @@ const VAZNEV9K = [
             ]
 const FSSHURRICANE = [
                 ["Barrel", "FSS Cannonade 16inch", "FSS-X7 Barrel"],
-                // [""]
+                ["Stock", "Assault-60 Stock Factory", "Ravage-8", "Demo Fade Pro Stock", "Demo Quicksilver Collapsed", "Demo Quicksilver Stock"],
                 ["Underbarrel", "Edge-47 Grip", "Demo Firm Grip", "FTAC Ripper 56", "Demo Cleanshot 40", "Demo IMP-44 Grip", "FTAC Tiger Grip", "FSS Sharkfin 90", "Agent Grip", "Bruen Sync Shot Grip", "XTEN Drop Grip", "Phase-3 Grip", "Merc Foregrip", "Lockgrip Precision-40", "Schlager Tango", "VX Pineapple", "Operator Foregrip", "TV Wrecker Grip", "Bruen Tilt Grip", "Bruen Warrior Grip", "Commando Foregrip", "XTEN Gravedigger", "XTEN Nexus Grip", "Hex-40 Grip", "OP-X9 Foregrip", "Cronen Grooveshot Grip", "EXF Backdraft Grip"],
                 ["Muzzle", "XTEN RR-40", "SA Schalldampfer 99", "Singuard MKV", "EXF Huntress-90", "Bruen Pendulum", "AVR-T90 Comp", "XTEN Razor Comp", "XRk Sandstorm", "Lockshot KT85", "Bruen Cubic Comp", "Spiral V3.5 Flash Hider", "Fox-202 Flash Hider", "TA Hul-Breach", "Forge DX90-F", "XTEN Black Kite", "FSS Covert IV", "Lacerta Compensator", "FTAC Castle Comp", "XRK Knockout Breach"],
                 ["Laser", "SZ 1MW PEQ", "Schlager PEQ Box IV", "Corio LAZ-44 V3", "Canted Vibro-Dot 7", "1MW Laser Box", "Stovl DR Laser Box", "Corvus PEQ Beam-5", "FTAC Grimline Laser", "Luminate-44", "DXS Flash 90", "FSS Ole-V Laser"],
-                //[""],
+                ["Ammunition", "5.7X28MM Frangible", "5.7X28MM Armor Piercing", "5.7X28MM OverPressured +P", "5.7X28MM Hollow Point"],
                 ["Rear Grip", "D15 Grip", "Sakin ZX Grip", "XTEN Grip", "Phantom Grip"],
                 ["Optic", "Slimline Pro", "SZ Mini", "Cronen Mini Red Dot", "Cronen Mini Pro", "SZ Sigma-IV Optic", "XRK On-Point Optic", "DF105 Reflex Sight", "Corvus SOL-76", "SZ Recharge-DX", "SZ SRO-7", "CORIO Enforcer Optic", "SZ Lonewolf Optic", "Kazan-Holo", "SZ Holotherm", "VLK 4.0 Optic", "Schlager 3.4X", "Forge Tac Delta 4", "Cronen Zero-P Optic", "Schlager Night View", "VX350 Thermal Optic", "DR582 Hybrid Sight", "SZ Vortex-90", "BPZ40 Hybrid", "Angel-40 4.8X", "Thermo-Optic X9", "Teplo Clear Shot", "HMW-20 Optic", "Luca Bandera Scope", "DS Farsight 11", "SZ Minitac-40", "Aim OP-V4", "Monocle CT90", "Corio RE-X Pro", "SZ Battle Optic", "Corvus Downrange-00"],
                 ["FSS HURRICANE"],
@@ -555,7 +578,7 @@ const SPR208 = [
 ]
 const LOCKWOODMK2 = [
     ["Barrel", "13.5inch Lonestar Barrel", "Lockwood Frontiersman", "21inch Coyote Barrel", "25inch Buffalo Barrel", "22.5inch EXF Alamo"],
-    ["Laser", "1MW Quick Fire LAser", "Accu-Shot 5MW Laser", "VLK LZR 7MW", "Schlager ULO-66 Laser", "Hipshot L20", "FJX Ultrabeam XR", "EXF Solarflare", "1MW Artemis Laser", "7MW Canted Laser", "Stovl Tac Laser", "Point-G3P 04"],
+    ["Laser", "1MW Quick Fire Laser", "Accu-Shot 5MW Laser", "VLK LZR 7MW", "Schlager ULO-66 Laser", "Hipshot L20", "FJX Ultrabeam XR", "EXF Solarflare", "1MW Artemis Laser", "7MW Canted Laser", "Stovl Tac Laser", "Point-G3P 04"],
     ["Optic", "Slimline Pro", "SZ Mini", "Cronen Mini Red Dot", "Cronen Mini Pro", "SZ Sigma-IV Optic", "XRK On-Point Optic", "DF105 Reflex Sight", "Corvus SOL-76", "SZ Recharge-DX", "SZ SRO-7", "CORIO Enforcer Optic", "SZ Lonewolf Optic", "Kazan-Holo", "SZ Holotherm", "VLK 4.0 Optic", "Schlager 3.4X", "Forge Tac Delta 4", "Cronen Zero-P Optic", "Schlager Night View", "VX350 Thermal Optic", "DR582 Hybrid Sight", "SZ Vortex-90", "BPZ40 Hybrid", "Angel-40 4.8X", "Thermo-Optic X9", "Teplo Clear Shot", "HMW-20 Optic", "Luca Bandera Scope", "DS Farsight 11", "SZ Minitac-40", "Aim OP-V4", "Monocle CT90", "Corio RE-X Pro", "SZ Battle Optic", "Corvus Downrange-00", "XTEN Angel-40", "SZ Bullseye Optic", "SZ Agressor-IR Optic", "Teplo-OP3 Scope", "Hybrid Firepoint", "SZ Oscar-9", "FTAC Charlie7", "3X RFL-Optic", "Drexsom Prime-90", "Ares Clear Shot", "DXS Coriolis V4", "Lachmann Impact 9", "SZ Heatsource 800"],
     ["Stock", "Demo VX509 Stock", "Lockwood Bullseye Stock", "Cut Off Stock Mod"],
     ["Lever", "Stallion Lever", "Longhorn Lever"],
@@ -567,9 +590,34 @@ const LOCKWOODMK2 = [
 ]
 //const LMS = []
 
-//const SAB50 = []
+const SAB50 = [
+    ["Barrel", "18.5inch XRK Resonate", "18.5inch Bryson LR Factory", "12.5inch Carbon Barrel", "9inch Tac-CB 55"],
+    ["Laser", "SZ 1MW PEQ", "Schlager PEQ Box IV", "Corio LAZ-44 V3", "Canted Vibro-Dot 7", "1MW Laser Box", "Stovl DR Laser Box", "Corvus PEQ Beam-5", "FTAC Grimline Laser", "Luminate-44", "DXS Flash 90", "FSS Ole-V Laser"],
+    ["Optic", "Slimline Pro", "SZ Mini", "Cronen Mini Red Dot", "Cronen Mini Pro", "SZ Sigma-IV Optic", "XRK On-Point Optic", "DF105 Reflex Sight", "Corvus SOL-76", "SZ Recharge-DX", "SZ SRO-7", "CORIO Enforcer Optic", "SZ Lonewolf Optic", "Kazan-Holo", "SZ Holotherm", "VLK 4.0 Optic", "Schlager 3.4X", "Forge Tac Delta 4", "Cronen Zero-P Optic", "Schlager Night View", "VX350 Thermal Optic", "DR582 Hybrid Sight", "SZ Vortex-90", "BPZ40 Hybrid", "Angel-40 4.8X", "Thermo-Optic X9", "Teplo Clear Shot", "HMW-20 Optic", "Luca Bandera Scope", "DS Farsight 11", "SZ Minitac-40", "Aim OP-V4", "Monocle CT90", "Corio RE-X Pro", "SZ Battle Optic", "Corvus Downrange-00", "XTEN Angel-40", "SZ Bullseye Optic", "SZ Agressor-IR Optic", "Teplo-OP3 Scope", "Hybrid Firepoint", "SZ Oscar-9", "FTAC Charlie7", "3X RFL-Optic", "Drexsom Prime-90", "Ares Clear Shot", "DXS Coriolis V4", "Lachmann Impact 9", "SZ Heatsource 800"],
+    //["Stock"],
+    ["Rear Grip", "Schlager Match Grip", "Bruen Lynx Grip", "Cronen Grip Wrap"],
+    ["Bolt", "FSS ST87 Bolt", "ZLR Reinforced Lockbolt"],
+    ["Magazine", "5 Round Mag", "15 Round Mag"],
+    ["Ammunition", ".308 Frangible", ".308 Armor Piercing", ".308 OverPressured +P", ".308 High Velocity", ".308 Hollow Point", ".308 Incendiary"],
+    ["Underbarrel", "Edge-47 Grip", "Demo Firm Grip", "XTEN Gravedigger", "FTAC Ripper 56", "Demo Cleanshot 40", "Demo IMP-44 Grip", "FTAC Tiger Grip", "FSS Sharkfin 90", "Agent Grip", "Bruen Sync Shot Grip", "XTEN Drop Grip", "XTEN Nexus Grip", "Phase-3 Grip", "Level Aim Bipod", "Commando Foregrip", "Cornerstone Bipod", "XTEN Stable Shot"],
+    ["Muzzle", "Polarfire-S", "Zulu-60", "Kastovia DX90", "Lockshot KT85", "Sakin Tread-40", "Eight-Point Flash Hider", "TA Hul-Breach KL", "Husher-65 Silencer", "ZLR Talon 5", "Echoline GS-X", "Tempus GH50", "TY-LR8", "Bore-490", "TZL-90 V3", "Cronen Dark KX30", "GL Clear Breach"],
+    ["SA-B 50"],
+    ["./assets/images/Screenshot_146.png"],
+]
 
-//const TAQM = []
+const TAQM = [
+    ["Barrel", "15.5inch Theta-X13", "LR1:7 20.5inch Barrel"],
+    ["Laser", "SZ 1MW PEQ", "Schlager PEQ Box IV", "Corio LAZ-44 V3", "Canted Vibro-Dot 7", "1MW Laser Box", "Stovl DR Laser Box", "Corvus PEQ Beam-5", "FTAC Grimline Laser", "Luminate-44", "DXS Flash 90", "FSS Ole-V Laser"],
+    ["Optic", "Slimline Pro", "SZ Mini", "Cronen Mini Red Dot", "Cronen Mini Pro", "SZ Sigma-IV Optic", "XRK On-Point Optic", "DF105 Reflex Sight", "Corvus SOL-76", "SZ Recharge-DX", "SZ SRO-7", "CORIO Enforcer Optic", "SZ Lonewolf Optic", "Kazan-Holo", "SZ Holotherm", "VLK 4.0 Optic", "Schlager 3.4X", "Forge Tac Delta 4", "Cronen Zero-P Optic", "Schlager Night View", "VX350 Thermal Optic", "DR582 Hybrid Sight", "SZ Vortex-90", "BPZ40 Hybrid", "Angel-40 4.8X", "Thermo-Optic X9", "Teplo Clear Shot", "HMW-20 Optic", "Luca Bandera Scope", "DS Farsight 11", "SZ Minitac-40", "Aim OP-V4", "Monocle CT90", "Corio RE-X Pro", "SZ Battle Optic", "Corvus Downrange-00", "XTEN Angel-40", "SZ Bullseye Optic", "SZ Agressor-IR Optic", "Teplo-OP3 Scope", "Hybrid Firepoint", "SZ Oscar-9", "FTAC Charlie7", "3X RFL-Optic", "Drexsom Prime-90", "Ares Clear Shot", "DXS Coriolis V4", "Lachmann Impact 9", "SZ Heatsource 800"],
+    ["Stock", "TV Ballast Stock", "Tactique Brute Stock", "Tacverte Core Stock", "TV Xline Pro"],
+    ["Rear Grip", "XRK Response Grip", "FSS Combat Grip", "Demo Cleanshot Grip", "TV Ergo Grip"],
+    ["Magazine", "15 Round Mag", "20 Round Mag"],
+    ["Ammunition", "6.5MM Hollow Point", "6.5MM High Velocity", "6.5MM Armor Piercing", "6.5MM Frangible", "6.5MM OverPressured +P", "6.5MM Incendiary"],
+    ["Underbarrel", "Edge-47 Grip", "Demo Firm Grip", "XTEN Gravedigger", "FTAC Ripper 56", "Demo Cleanshot 40", "Demo IMP-44 Grip", "FTAC Tiger Grip", "FSS Sharkfin 90", "Agent Grip", "Bruen Sync Shot Grip", "XTEN Drop Grip", "XTEN Nexus Grip", "Phase-3 Grip", "Level Aim Bipod", "Commando Foregrip", "Cornerstone Bipod", "XTEN Stable Shot", "Bipod V9 Grip"],
+    ["Muzzle", "Polarfire-S", "Zulu-60", "Kastovia DX90", "Lockshot KT85", "Sakin Tread-40", "Eight-Point Flash Hider", "TA Hul-Breach KL", "Husher-65 Silencer", "ZLR Talon 5", "Echoline GS-X", "Tempus GH50", "TY-LR8", "Bore-490", "TZL-90 V3", "Cronen Dark KX30", "GL Clear Breach"],
+    ["TAQ-M"],
+    ["./assets/images/Screenshot_147.png"],
+]
 //-------------------------------------------------------------------------------------------------------------------------------
 const MCPR300 = [
     ["Barrel", "17.5inch Orca Barrel", "19inch Silentfire Barrel", "22inch OMX-456"],
@@ -581,7 +629,7 @@ const MCPR300 = [
     ["Magazine", "5 Round Mag", "15 Round Mag"],
     ["Ammunition", ".300 Mag Hollow Point", ".300 Magnum", ".300 Mag Armor Piercing", ".300 Mag Incendiary", ".300 Mag Frangible", ".300 Mag High Velocity", ".300 Mag OverPressured +P"],
     //["Underbarrel"],
-    //["Muzzle"],
+    ["Muzzle", "Talon Sixteen", "EXF Relentless-40", "BVM-338", "TA CG76", "Dark KX50 Flash Hider", "Nilsound 90", "FTAC Dreadnought", "FTAC Reaper", "Bruen Agent 90", "Cronen DM338", "Shred CP90", "XRK Kraken", "AP-390 Flash Hider", "Ported DZ38", "Demon Helix T7"],
     ["MCPR-300"],
     ["./assets/images/Screenshot_148.png"]
 ]
@@ -604,11 +652,11 @@ const SIGNAL50 = [
     ["Laser", "SZ 1MW PEQ", "Schlager PEQ Box IV", "Corio LAZ-44 V3", "1MW Laser Box", "Stovl DR Laser Box", "Corvus PEQ Beam-5", "FTAC Grimline Laser", "Luminate-44", "DXS Flash 90", "FSS Ole-V Laser"],
     ["Optic", "XRK On-Point Optic", "DF105 Reflex Sight", "Corvus SOL-76", "SZ Recharge-DX", "SZ SRO-7", "CORIO Enforcer Optic", "SZ Lonewolf Optic", "Kazan-Holo", "SZ Holotherm", "VLK 4.0 Optic", "Schlager 3.4X", "Forge Tac Delta 4", "Cronen Zero-P Optic", "Schlager Night View", "VX350 Thermal Optic", "DR582 Hybrid Sight", "SZ Vortex-90", "BPZ40 Hybrid", "Angel-40 4.8X", "Thermo-Optic X9", "Teplo Clear Shot", "HMW-20 Optic", "Luca Bandera Scope", "DS Farsight 11", "SZ Minitac-40", "Aim OP-V4", "Monocle CT90", "Corio RE-X Pro", "SZ Battle Optic", "Corvus Downrange-00", "XTEN Angel-40", "SZ Bullseye Optic", "SZ Agressor-IR Optic", "Teplo-OP3 Scope", "Hybrid Firepoint", "SZ Oscar-9", "FTAC Charlie7", "3X RFL-Optic", "Drexsom Prime-90", "Ares Clear Shot", "DXS Coriolis V4", "Lachmann Impact 9", "SZ Heatsource 800", "SZ Ultra 11.5X", "Corio 13X VRS", "Drexsom Prime-90", "Raptor-FVM40"],
     ["Stock", "FSS Echo Stock", "SO Inline Stock", "FTAC Invisi-670 Stock"],
-    //["Rear Grip"],
-    //["Magazine"],
+    ["Rear Grip", "Stalwart Grip", "Cronen Blockade Grip", "SA Finesse Grip"],
+    ["Magazine", "7 Round Magazine"],
     ["Ammunition", ".50 Cal Frangible", ".50 Cal High Velocity", ".50 Cal Armor Piercing", ".50 Cal Incendiary", ".50 Cal Explosive"],
-    //["Underbarrel"],
-    //["Muzzle"],
+    ["Underbarrel", "Edge-47 Grip", "Demo Firm Grip", "XTEN Gravedigger", "FTAC Ripper 56", "Demo Cleanshot 40", "Demo IMP-44 Grip", "FTAC Tiger Grip", "FSS Sharkfin 90", "Agent Grip", "Bruen Sync Shot Grip", "XTEN Drop Grip", "XTEN Nexus Grip", "Phase-3 Grip", "Level Aim Bipod", "Commando Foregrip", "Cornerstone Bipod", "XTEN Stable Shot"],
+    ["Muzzle", "Bruen Agent 90 Silencer", "Bruen L40 Kobra", "Talon Sixteen Silencer", "Nilsound 90 Silencer", "Bruen Counter-Ops", "H26 Ported Comp", "Vigilante Comp", "Legion Fire Comp", "SA Shroud Flash Hider"],
     ["SIGNAL 50"],
     ["./assets/images/Screenshot_150.png"],
 ]
@@ -744,8 +792,16 @@ const SIGNAL50 = [
     } else if (randomPrimary == 34) {
         $(`#weapon${count}Img`).attr("src", `./assets/images/Screenshot_153.png`)
         return;
+    } else if (randomPrimary == 35) {
+        selectedGun = SO14
+    } else if (randomPrimary == 36) {
+        selectedGun = FTACRECON
+    } else if (randomPrimary == 37) {
+        selectedGun = SAB50
+    } else if (randomPrimary == 38) {
+        selectedGun = TAQM
     }
-
+ 
     $(`#weapon${count}Img`).attr("src", `${selectedGun.slice(-1)}`)
 
     let attachmentTypeArray = []

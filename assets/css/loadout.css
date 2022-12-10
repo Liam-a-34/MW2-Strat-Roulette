@@ -50,10 +50,6 @@ header{
     background-color: rgb(79, 77, 77);
     color: white;
     font-size: 30px;
-    /*margin-top: 35px;
-     left: 50%;
-    -ms-transform: translate(-50%, -50%);
-    transform: translate(-50%, -50%);*/
 }
 
 #loadoutBtn:hover{
@@ -68,10 +64,6 @@ header{
     background-color: rgb(79, 77, 77);
     color: white;
     font-size: 30px;
-    /* top: 39%;
-    left: 50%;
-    -ms-transform: translate(-50%, -50%);
-    transform: translate(-50%, -50%);   */
 }
 
 .back-button:hover{
@@ -80,8 +72,9 @@ header{
 
 #buttonsDiv {
     position: absolute;
+    display: inline-block;
     height: 125px;
-    top: 47%;
+    top: 400px;
     left: 50%;
     -ms-transform: translate(-50%, -50%);
     transform: translate(-50%, -50%);
@@ -225,4 +218,139 @@ header{
     text-align: center;
 }
 
+@media screen and (max-width: 1100px){
+    header {
+        height: 75px;
+        font-size: 50px;
+    }
+    #loadoutArea{
+        margin-top: 125px;
+    }
+    #loadoutArea li{
+        font-size: 15px;
+    }
+    #buttonsDiv{
+        top: 350px;
+        text-align: center;
+    }
+    .weaponImg{
+        width: 200px;
+        height: 75px;
+    }
+    .attachments1{
+        font-size: 15px;
+        line-height: 30px;
+    }
+    .attachments2{
+        font-size: 15px;
+        line-height: 30px;
+    }
+    .attachments1 h4{
+        font-size: 20px;
+    }
+    .attachments2 h4{
+        font-size: 20px;
+    }
+    #selectedWeapons{
+        width: 600px;
+        bottom: -1020px
+    }
+    #selectedWeapons h2{
+        font-size: 30px;
+    }
+    .weaponSlot h3{
+        font-size: 20px;
+    }
+    #perks h5{
+        font-size: 13px;
+    }
+    #equipment{
+        bottom: -650px
+    }
+    #equipment h5{
+        font-size: 13px
+    }
+    #equipment h2{
+        font-size: 30px;
+    }
+    #tacImg{
+        height: 125px;
+        width: 100px;
+    }
+    #lethalImg{
+        height: 125px;
+        width: 100px;
+    }
+    #perksH2{
+        font-size: 30px;
+    }
+    #perks img{
+        width: 100px;
+        height: 100px;
+    }
+}
+@media screen and (max-width: 600px){
+    header{
+        font-size: 30px;
+        height: 50px;
+    }
+    #buttonsDiv button{
+        width: 150px;
+        height: 35px;
+        font-size: 20px;
+    }
+    #loadoutBtn{
+        margin-top: 15px;
+    }
+    .back-button{
+        margin-top: 10px;
+    }
+    #selectedWeapons{
+        width: 350px;
+    }
+    .weaponImg{
+        width: 125px;
+        height: 50px;
+    }
+    #selectedWeapons h2{
+        font-size: 25px;
+    }
+    .attachments1{
+        font-size: 8px;
+        line-height: 20px;
+    }
+    .attachments2{
+        font-size: 8px;
+        line-height: 20px;
+    }
+    .attachments1 h4{
+        font-size: 12px;
+    }
+    .attachments2 h4{
+        font-size: 12px;
+    }
+    .weaponSlot{
+        width: 175px;
+    }
+    .weaponSlot h3{
+        font-size: 15px;
+    }
+    #selectedWeapons{
+        top: 700px;
+    }
+
+}
+@media screen and (max-width: 450px){
+    #buttonsDiv{
+       top: 360px; 
+    }
+    #loadoutArea li{
+        font-size: 10px;
+    }
+    #loadoutArea{
+        margin: 100px auto 0 auto;
+        height: 1100px;
+        padding-bottom: 100px; 
+    }
+}
 
