@@ -126,7 +126,7 @@ header{
     justify-content: space-evenly;
     width: 1000px;
     position: absolute;
-    bottom: -1400px;
+    top: 950px;
     left: 50%;
     -ms-transform: translate(-50%, -50%);
     transform: translate(-50%, -50%);
@@ -253,7 +253,7 @@ header{
     }
     #selectedWeapons{
         width: 600px;
-        bottom: -1020px
+        top: 700px;
     }
     #selectedWeapons h2{
         font-size: 30px;
