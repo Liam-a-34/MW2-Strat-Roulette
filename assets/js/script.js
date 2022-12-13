@@ -93,10 +93,10 @@ const P890 = [
 const DEAGLE = [
     ["Barrel", "SA Longshot-50", "SA BRake Barrel", "SA Comp Barrel", "SA Tyrant Fifty"],
     ["Laser", "Series 710 Pistol Laser", "FJX Diod-70", "XTEN Sidearm-L400", "1MW Pistol Laser", "DZM-1000 L", "FTAC Vortex 200"],
-    //["Optic"],
+    ["Optic", "Slimline Pro", "SZ Mini", "Cronen Mini Red Dot", "Cronen Mini Pro", "SZ Sigma-IV Optic", "XRK On-Point Optic", "DF105 Reflex Sight", "Corvus SOL-76", "SZ Recharge-DX", "SZ SRO-7", "CORIO Enforcer Optic", "SZ Lonewolf Optic", "Kazan-Holo", "SZ Holotherm"],
     ["Rear Grip", "EXF Shoreline Grip", "EXF Resistance Grip", "GS .50 Wood Grain", "Akimbo .50 GS"],
     ["Magazine", "10 Round Mag", "13 Round Mag"],
-    //["Ammunition"],
+    ["Ammunition", ".50 Frangible", ".50 Hollow Point", ".50 Armor Piercing", ".50 OverPressured +P"],
     ["Trigger Action", "SA Fifty Trigger", "SA Competition Trigger", "SA Hare Trigger"],
     ["Muzzle", "SA Peak-77", "EXF Fifty GS", "Matuzek Crown", "FTAC Fifty Comp", "Potato Masher", "GW Flash Fifty"],
     ["./assets/images/Screenshot_182.png"]
@@ -118,9 +118,9 @@ const X12 = [
 const BASILISK = [
     ["Barrel", "Bryson Snubby", "FTAC Fang Ported", "6.75inch Cougar 500", "10.5inch FTAC Arrow", "FTAC Carnivora 7inch"],
     ["Laser", "Basilisk Grip Laser", "Revo-LSD 7MW", "Corvus LZR-790"],
-    //["Optic" ],
+    ["Optic", "Slimline Pro", "SZ Mini", "Cronen Mini Red Dot", "Cronen Mini Pro", "SZ Sigma-IV Optic", "XRK On-Point Optic", "DF105 Reflex Sight", "Corvus SOL-76", "SZ Recharge-DX", "SZ SRO-7", "CORIO Enforcer Optic", "SZ Lonewolf Optic", "Kazan-Holo", "SZ Holotherm"],
     ["Rear Grip", "Bryson Duel Grip", "Bryson WD-54 Grip", "SO RO-99 Grip", "Akimbo Basilisk"],
-    //["Loader"],
+    ["Loader", "B-3ST Loader", "S40 Rapid Loader"],
     ["Ammunition", ".500 Hollow Point", ".500 Armor Piercing", ".500 Frangible", ".500 OverPressured +P", ".500 Snakeshot"],
     ["Trigger Action", "Bryson HTA", "Basilisk HT-7", "Bryson Match Grade"],
     ["Muzzle", "FSS VMW Flash Hider", "RVS607 Compensator", "FSS KL30", "FTAC H50 Ported"],
